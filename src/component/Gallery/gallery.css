@@ -1,0 +1,26 @@
+.gallery{
+    background-color: #127872;
+    margin-top: 5%;
+    /* padding: 20px 0px; */
+}
+.map-and-text{
+    display: flex;
+    justify-content: space-between;
+}
+.map{
+    width: 53%;
+    height: 600px;
+    overflow: hidden;
+}
+.map-text{
+    width: 45%;
+    margin: auto;
+    text-align: right;
+    color: white;
+}
+.map-text p{
+    color: rgb(231, 231, 231);
+}
+.map-text button{
+    background-color: #E1A141;
+}

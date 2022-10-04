@@ -1,0 +1,27 @@
+.offers{
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    margin-top: 3%;
+}
+.offers-header{
+    margin: 10px 0px;
+}
+.offers-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.c-block{
+    width: 250px;
+    margin: 13px 0px;
+}
+.line{
+    border: 0.5px solid #E1A141;
+    width: 50px;
+}
+.c-block h5{
+    margin-top: 10px;
+}

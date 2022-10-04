@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700;800&display=swap');
+*{
+  font-family: 'Jost', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  transition: 0.3s;
+}
+section{
+  width: 92%;
+  margin: auto;
+  display: flex;
+  /* padding: 20px 0px; */
+}
+span{
+  letter-spacing: 3px;
+  color: #E1A141;
+  font-size: 13px;
+  padding: 5px 0px;
+  /* font-weight: 700; */
+}
+h1{
+  overflow: hidden;
+  font-size: 50px;
+  font-weight: 700;
+  /* color: #127872; */
+}
+h5, h3{
+  overflow: hidden;
+}
+p{
+  font-size: 16px;
+  line-height: 27px;
+  color: rgb(103, 103, 103);
+}
+button{
+  background-color: #127872;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+}
+@media screen and (max-width: 851px){
+   h1{
+      font-size: 40px;
+  }
+}

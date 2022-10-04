@@ -1,0 +1,54 @@
+.about-us{
+    display: flex;
+    width: 100%;
+    background-color: #127872;
+    /* padding: 30px 0px; */
+    align-items: center;
+    justify-content: space-between;
+    /* margin-top: 4%; */
+}
+.about-us-content{
+    width: 50%;
+    /* height: max-content; */
+    display: flex;
+    justify-content: center;
+}
+.content-container{
+    width: 85%;
+}
+.about-us-content p{
+    color: rgb(231, 231, 231);
+    padding: 5px 0px;
+}
+.about-us-content h1{
+    padding: 5px 0px;
+    color: white;
+}
+.about-us-content button{
+    background-color: #E1A141;
+}
+
+.about-us-img{
+    width: 50%;
+    height: 500px;
+    object-fit: cover;
+    background-image: url(https://images.pexels.com/photos/5696831/pexels-photo-5696831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-size: cover;
+}
+@media screen and (max-width: 800px){
+    .about-us{
+        flex-direction: column-reverse;
+        padding-bottom: 20px;
+    }
+    .about-us-content{
+        width: 92%;
+        padding-top: 15px;
+    }
+    .content-container{
+        width: 100%;
+    }
+    .about-us-img{
+        width: 100%;
+    }
+}
